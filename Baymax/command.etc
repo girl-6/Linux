@@ -1,0 +1,5 @@
+关闭防火墙。:sudo systemctl stop firewalld
+打开防火墙。:sudo systemctl start firewalld
+查看当前目录。:ls -l
+查看当前所在路径。:pwd
+重启网络服务。:sysytemctl restart network
