@@ -1,5 +1,5 @@
-17:37:52Recoginize failed: 3301 speech quality error.
-17:11:58Recoginize failed: 3301 speech quality error.
+21:40:58Text tto audio failed: "authentication failed."
+:11:58Recoginize failed: 3301 speech quality error.
 details.
 16:55:16Recoginize failed: 3301 speech quality error.
 16:55:16Recoginize failed: 3301 speech quality error.
