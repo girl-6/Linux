@@ -2,4 +2,10 @@
 打开防火墙。:sudo systemctl start firewalld
 查看当前目录。:ls -l
 查看当前所在路径。:pwd
+帮我查内存。:free
+帮我查硬盘。:df -h
+查看当前进程。:ps aux | grep "Baymax"
+查看网络情况。:ifconfig
+帮我清个屏吧！:clear
 重启网络服务。:sysytemctl restart network
+

@@ -247,9 +247,9 @@ class Speech
 		std::string file_ret;
 		std::map<std::string,std::string>options;
 		options["spd"]="4";  //语速
-		options["pit"]="6";  //语调
-		options["vol"]="5";  //音量
-		options["per"]="111";   //声音
+		options["pit"]="4";  //语调
+		options["vol"]="6";  //音量
+		options["per"]="106";   //声音
 		options["aue"]="6";    //播放格式
 
 		ofile.open(TTS_PATH,std::ios::out | std::ios::binary);   //创建音频文件以二进制形式打开
@@ -324,7 +324,8 @@ class 	Baymax
 			{
 			if(time==0)
 			{
-				std::string ret="来和我聊天吧。";
+				std::string ret="我来啦，需要我做点什么？";
+				std::cout<<"Baymax: "<<ret<<std::endl;
 				sh.TTS(ret);
 				Play();
 				time++;
@@ -342,18 +343,9 @@ class 	Baymax
 			{
 				if(time==1)
 				{
-					std::string ret1="真的我不要了吗？";
-					sh.TTS(ret1);
-					std::cout<<"Baymax: "<<ret1<<std::endl;
-					Play();
-					time++;
-					continue;
-				}
-				if(time==2)
-				{
-					std::string ret2="再考虑一下吧~";
-					sh.TTS(ret2);
-					std::cout<<"Baymax: "<<ret2<<std::endl;
+					std::string ret="再考虑一下吧~";
+					sh.TTS(ret);
+					std::cout<<"Baymax: "<<ret<<std::endl;
 				    Play();
 					time++;
 					continue;
